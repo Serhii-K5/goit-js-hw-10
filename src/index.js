@@ -138,7 +138,8 @@ function pos(e) {
   });
 }
 
-addEventListener('mousemove', pos, false);
+// addEventListener('mousemove', pos, false);
+addEventListener('mouseclick', pos, false);
   
 // EN: End of list element selection block  
 // UA: Кінець блоку вибору елементів зі списку
